@@ -15,7 +15,7 @@ function data(){
 
 var tmp = data() || {};
 var a = tmp.a;
-var b = tmp.b;
+var b = tmp.b || {};
 var c = b.c;
 var d = b.d;
 
@@ -40,6 +40,6 @@ var {
     b:{
         c,
         d
-    }
+    } || {}
 } = data() || {};
 ```
