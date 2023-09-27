@@ -14,3 +14,14 @@ console.log(msg.match(/(l.)(?=o)/g));
 console.log(msg.match(/(l.)(?!o)/g));
 // ["lo", "ld"]
 ```
+
+```js
+var msg = "Hello World";
+
+console.log(msg.match(/(?<=e)(l.)/g));
+// ["ll"]
+
+console.log(msg.match(/(?<!e)(l.)/g));
+// ["lo", "ld"]
+```
+
