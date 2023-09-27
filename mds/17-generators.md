@@ -15,3 +15,7 @@ console.log(generator.next()); // { value: 2, done: false }
 console.log(generator.next()); // { value: 3, done: false }
 console.log(generator.next()); // { value: 4, done: true }
 ```
+
+- - - - - 
+
+![declerative](https://github.com/saidali-ibn-zafar/JavaScript-The-Recent-Parts/assets/120341849/360e3504-4944-42ed-af71-01a95693745d)
