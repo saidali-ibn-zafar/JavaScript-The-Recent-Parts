@@ -41,3 +41,6 @@
     
     const { name, address: { street: streetAddress, city: cityName } } = person;
     ```
+-----
+
+- [For more...](https://github.com/saidali-ibn-zafar/JavaScript-The-Recent-Parts/blob/main/source%20code/05-usage-of-nested-obj-destructuring/app.js)
