@@ -1,8 +1,7 @@
 ## Iterators
 
 What is an Iterator? 
-- An `iterator` is an object that contains a countable number of values. An iterator is an object that can be iterated upon, meaning that you can `traverse` through all the values.
-`TRAVERSE - travel across or through.`
+- We can say Iterator is a thing that helps us go through a set of values. It means that it presents a value at one time from a data source.
 
 - - - - - 
 
