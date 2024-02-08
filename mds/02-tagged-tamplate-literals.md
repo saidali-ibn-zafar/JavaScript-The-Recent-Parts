@@ -1,6 +1,6 @@
 ## Tagged Literal Templates
 
-We can think of a tag template as a function that takes in a mix of strings and variables and then formats them and returns them based on some conditions or rules the we apply. 
+We can think of a tag template as a function that takes in a mix of strings and variables and then formats them and returns them based on some conditions or rules that we apply. 
 
 ```js
 const greeting = (strings, name) => {
