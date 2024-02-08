@@ -1,5 +1,8 @@
 ## JavaScript Template Literals
 
+#What are template literal strings? 
+ - Template literal strings are used inside of back-tics. And we use $ sign and {} brackets to interpolate variables into a string, and then result will be as a single text.
+
 - - - - - 
 - Synonyms:
     - Template Literals
