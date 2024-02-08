@@ -14,3 +14,9 @@ let age = 30;
 myTagFunction`My name is ${name} and I am ${age} years old.`;
 
 ```
+```js
+//Result:
+[ 'My name is ', ' and I am ', ' years old.' ]
+[ 'John', 30 ]
+
+```
