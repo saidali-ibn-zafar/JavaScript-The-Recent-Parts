@@ -24,3 +24,5 @@ console.log(first);  // Output: 1
 console.log(second); // Output: 2
 console.log(third);  // Output: 3
 ```
+
+## additional information: https://untangled.io/in-depth-es6-destructuring-with-assembled-avengers/
