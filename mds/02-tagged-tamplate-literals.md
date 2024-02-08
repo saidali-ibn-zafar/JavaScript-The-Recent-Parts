@@ -3,14 +3,14 @@
 We can think of a tag template as a function that takes in a mix of strings and variables and then formats them and returns them based on some conditions or rules that we apply. 
 
 ```js
-const greeting = (strings, name) => {
-  const now = new Date();
-  const timePeriod = now.getHours() < 12 ? "Morning" : now.getHours() < 17 ? "Evening" : "Afternoon";
-  return `Good ${timePeriod} ${name}${strings[1]}`;
-};
+function myTagFunction(strings, ...values) {
+  console.log(strings);  // Array of string parts
+  console.log(values);   // Array of interpolated values
+}
 
-const name = "James";
+let name = "John";
+let age = 30;
 
-greeting`Hello ${name} nice to meet you!`;
+myTagFunction`My name is ${name} and I am ${age} years old.`;
 
 ```
